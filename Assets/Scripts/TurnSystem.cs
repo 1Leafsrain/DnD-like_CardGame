@@ -206,7 +206,7 @@ public class TurnSystem : MonoBehaviour
                 enemyObj.canMove = false;
                 StartCoroutine(endStage(5.0f));
                 unpreparePlayer();
-                stages = stage.first;
+                //stages = stage.first;
                 //StartCoroutine(endStage(3.0f));
                 break;
         }
@@ -248,10 +248,10 @@ public class TurnSystem : MonoBehaviour
             panelMenang.SetActive(true);
         }
         playerObj.canMove = false;
-        
+        stages = stage.first;
         yield return new WaitForSeconds(waktu);
         //stages = stage.end;
         //TurnStage();
-        Debug.Log("Game selesai");
+       //Debug.Log("Game selesai");
     }
 }
