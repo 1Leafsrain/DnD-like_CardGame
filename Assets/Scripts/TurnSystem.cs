@@ -206,6 +206,7 @@ public class TurnSystem : MonoBehaviour
                 enemyObj.canMove = false;
                 StartCoroutine(endStage(5.0f));
                 unpreparePlayer();
+                stages = stage.first;
                 //StartCoroutine(endStage(3.0f));
                 break;
         }
