@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-[SerializeField] public enum stage { first, firstMiddle, middleEnd, end }
+public enum stage { first, firstMiddle, middleEnd, end }
 
 public class TurnSystem : MonoBehaviour
 {
@@ -33,7 +33,7 @@ public class TurnSystem : MonoBehaviour
     [SerializeField] public EnemyCard[] enemyHandCard;
     public LeftCardDropArea[] HandPositionTrans;
 
-    [SerializeField] public enum enemyTipes {}
+     public enum enemyTipes {}
 
     public stage stages;
 

@@ -22,8 +22,7 @@ public class Turns : MonoBehaviour
     [SerializeField] public GameObject[] playerHand;
     [SerializeField] public Card[] playerHandCard;
     public LeftCardDropArea[] HandPositionTrans;
-
-    [SerializeField] public enum enemyTipes { }
+     public enum enemyTipes { }
 
     //public stage stages;
 

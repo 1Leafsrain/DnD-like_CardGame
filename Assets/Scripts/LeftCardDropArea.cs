@@ -2,7 +2,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 
-[SerializeField] public enum tipeSlot { attack, defence, support }
+ public enum tipeSlot { attack, defence, support }
 public class LeftCardDropArea : MonoBehaviour, ICardDropArea
 {
     public tipeSlot tipes;

@@ -1,4 +1,6 @@
-
+using UnityEngine;
+using System.Collections.Generic;
+using System.Collections;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEditor;
@@ -9,7 +11,7 @@ using UnityEngine.UIElements;
 using static UnityEditor.PlayerSettings;
 using static UnityEngine.Rendering.GPUSort;
 
-[SerializeField] public enum tipe { api, air, tanah }
+ public enum tipe { api, air, tanah }
 
 public class Card : MonoBehaviour
 {
